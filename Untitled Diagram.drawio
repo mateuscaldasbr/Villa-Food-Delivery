@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-24T05:19:35.768Z" agent="5.0 (Windows)" etag="QkUS1KvsQAI8qTUi-5Jc" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-24T12:05:41.576Z" agent="5.0 (Windows)" etag="AJkGzflesku-8R7aByNZ" version="13.9.9" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="shmcH7ELp8YfeY17AkYp-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="shmcH7ELp8YfeY17AkYp-6">
           <mxGeometry y="110" width="320" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="shmcH7ELp8YfeY17AkYp-9" value="+ reservarQuarto (int, Date, boolean): boolean&#xa;+ liberar (int, Date, boolean): boolean&#xa;+ cadastrar (int, double, String): boolean&#xa;+ consultarQuarto (int,Date): boolean &#xa;+ desc_Quarto(numero): String &#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="shmcH7ELp8YfeY17AkYp-6">
+        <mxCell id="shmcH7ELp8YfeY17AkYp-9" value="+ reservarQuarto (int, Date, boolean): boolean&#xa;+ liberar (int, Date, boolean): boolean&#xa;+ cadastrar (int, double, String): boolean&#xa;+ consultarQuarto (int,Date): String&#xa;+ desc_Quarto(numero): String &#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="shmcH7ELp8YfeY17AkYp-6">
           <mxGeometry y="118" width="320" height="82" as="geometry" />
         </mxCell>
         <mxCell id="shmcH7ELp8YfeY17AkYp-15" value="Pessoa" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
@@ -37,7 +37,7 @@
         <mxCell id="shmcH7ELp8YfeY17AkYp-21" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="shmcH7ELp8YfeY17AkYp-19">
           <mxGeometry y="110" width="240" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="shmcH7ELp8YfeY17AkYp-22" value="+ newCliente(String, int, int, String, int, &#xa;&#xa;String, String, String ): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="shmcH7ELp8YfeY17AkYp-19">
+        <mxCell id="shmcH7ELp8YfeY17AkYp-22" value="+ newCliente(String, int, int, String, int, &#xa;String, String, String ): boolean&#xa;+login(String, String): boolean&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="shmcH7ELp8YfeY17AkYp-19">
           <mxGeometry y="118" width="240" height="82" as="geometry" />
         </mxCell>
         <mxCell id="shmcH7ELp8YfeY17AkYp-23" value="Reserva" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
