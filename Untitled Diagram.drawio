@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-24T12:40:35.220Z" agent="5.0 (Windows)" etag="sR0Idz2KVDAGwy8jAmXD" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-24T12:51:24.224Z" agent="5.0 (Windows)" etag="OtVMqAC6WFm695f0Nj8Q" version="13.9.9" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -49,7 +49,7 @@
         <mxCell id="shmcH7ELp8YfeY17AkYp-25" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="shmcH7ELp8YfeY17AkYp-23">
           <mxGeometry y="130" width="340" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="shmcH7ELp8YfeY17AkYp-26" value="+ newReserva(int, date, date, double, boolean, double): boolean&#xa;+ pagar(pagamentoPendente): double&#xa;+ status Reserva (boolean): boolean&#xa;+editarReserva(int,Date,Date,double,boolean,double): Boolean&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="shmcH7ELp8YfeY17AkYp-23">
+        <mxCell id="shmcH7ELp8YfeY17AkYp-26" value="+ newReserva(int, date, date, double, boolean, double): boolean&#xa;+ pagar(pagamentoPendente): double&#xa;+ status Reserva (boolean): boolean&#xa;+editarReserva(int,Date,Date,double,boolean,double): boolean&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="shmcH7ELp8YfeY17AkYp-23">
           <mxGeometry y="138" width="340" height="72" as="geometry" />
         </mxCell>
         <mxCell id="shmcH7ELp8YfeY17AkYp-27" value="" style="edgeStyle=none;html=1;endSize=12;endArrow=block;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="shmcH7ELp8YfeY17AkYp-19" target="shmcH7ELp8YfeY17AkYp-16">
@@ -70,7 +70,7 @@
         <mxCell id="shmcH7ELp8YfeY17AkYp-30" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="shmcH7ELp8YfeY17AkYp-28">
           <mxGeometry y="110" width="210" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="shmcH7ELp8YfeY17AkYp-31" value="+ newFuncionario(String, int, int, String,&#xa;double, int): boolean&#xa;String, String, String ): boolean&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="shmcH7ELp8YfeY17AkYp-28">
+        <mxCell id="shmcH7ELp8YfeY17AkYp-31" value="+ newFuncionario(String, int, int, String,&#xa;double, int): boolean&#xa;String, String, String ): boolean&#xa;+relatoriosFuncionario() String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="shmcH7ELp8YfeY17AkYp-28">
           <mxGeometry y="118" width="210" height="82" as="geometry" />
         </mxCell>
         <mxCell id="shmcH7ELp8YfeY17AkYp-37" value="" style="edgeStyle=none;html=1;endSize=12;endArrow=block;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="shmcH7ELp8YfeY17AkYp-28" target="shmcH7ELp8YfeY17AkYp-16">
